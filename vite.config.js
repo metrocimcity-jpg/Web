@@ -18,6 +18,21 @@ export default defineConfig({
     },
   },
   plugins: [
+    {
+      name: "local-sandcastle-sample-data",
+      transform(code, id) {
+        if (!id.replaceAll("\\", "/").includes("/Class/") || !id.endsWith(".js")) {
+          return null;
+        }
+        if (!code.includes("https://cesium.com/public/SandcastleSampleData/")) {
+          return null;
+        }
+        return code.replaceAll(
+          "https://cesium.com/public/SandcastleSampleData/",
+          "/SampleData/",
+        );
+      },
+    },
     viteStaticCopy({
       targets: [
         { src: `${cesiumSource}/ThirdParty`, dest: cesiumBaseUrl },
