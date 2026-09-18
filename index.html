@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cesium Samples</title>
+    <link rel="stylesheet" href="/runner/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+          <h1>Cesium Sandcastle</h1>
+          <p id="sample-count">Loading samples…</p>
+          <input
+            id="sample-search"
+            type="search"
+            placeholder="Search samples"
+            autocomplete="off"
+          />
+        </div>
+        <nav id="sample-list" class="sample-list" aria-label="Samples"></nav>
+      </aside>
+      <section class="stage">
+        <div class="stage-header">
+          <button id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="sidebar">
+            ☰
+          </button>
+          <div class="stage-copy">
+            <h2 id="sample-title">Loading</h2>
+            <p id="sample-description"></p>
+          </div>
+        </div>
+        <iframe id="sample-frame" title="Cesium sample viewer"></iframe>
+      </section>
+    </div>
+    <script type="module" src="/runner/app.js"></script>
+  </body>
+</html>

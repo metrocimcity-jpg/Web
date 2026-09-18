@@ -1,0 +1,16 @@
+{
+  "name": "cesium-class-samples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite"
+  },
+  "dependencies": {
+    "cesium": "^1.144.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-static-copy": "^2.3.2"
+  }
+}

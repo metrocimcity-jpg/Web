@@ -1,0 +1,28 @@
+---
+description: Always apply all installed CesiumJS skills for globe/3D geospatial work
+alwaysApply: true
+---
+
+# CesiumJS skills are active
+
+All 14 CesiumJS domain skills plus the orientation skill are enabled. When writing or editing CesiumJS, Cesium ion, 3D Tiles, CZML, or globe/geospatial code, read and follow every relevant skill before acting:
+
+- `using-cesiumjs-skills` — maps the 14 domain skills; start here for CesiumJS requests
+- `cesiumjs-viewer-setup` — Viewer, widgets, Ion tokens, bootstrapping a globe
+- `cesiumjs-camera` — camera, flyTo, navigation constraints, entity tracking
+- `cesiumjs-entities` — points/labels/models/polygons; GeoJSON/KML/CZML/GPX
+- `cesiumjs-3d-tiles` — tilesets, metadata, voxels, clipping, MVT
+- `cesiumjs-imagery` — base maps, imagery providers, split-screen
+- `cesiumjs-terrain-environment` — terrain, atmosphere, sky, fog, lighting, shadows
+- `cesiumjs-primitives` — Primitive API, batching, BufferPrimitive, GeoJsonPrimitive
+- `cesiumjs-materials-shaders` — Fabric materials, IBL, post-processing, bloom
+- `cesiumjs-custom-shader` — GLSL CustomShader for Model/tileset/voxels
+- `cesiumjs-time-properties` — Clock, JulianDate, sampled/interval properties
+- `cesiumjs-spatial-math` — Cartesian3, Matrix4, ellipsoid, projections
+- `cesiumjs-interaction` — picking, hover, drag, ScreenSpaceEventHandler
+- `cesiumjs-models-particles` — glTF/GLB loading, animation, particles
+- `cesiumjs-core-utilities` — Resource, Color, Event, error handling
+
+Skill files live in `.cursor/skills/cesiumjs-*/SKILL.md` and `.cursor/skills/using-cesiumjs-skills/SKILL.md`. Load the matching `SKILL.md` (and extra `.md` references such as `REFERENCE.md` or `DOMAINS.md`) instead of improvising CesiumJS setup.
+
+Source: https://github.com/CesiumGS/cesiumjs-skills (Apache-2.0, CesiumJS v1.144).

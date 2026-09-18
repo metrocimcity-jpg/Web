@@ -1,0 +1,25 @@
+---
+description: Always apply all installed Three.js skills for 3D/WebGL work
+alwaysApply: true
+---
+
+# Three.js skills are active
+
+All 14 Three.js skills are enabled. When writing or editing 3D, WebGL, or Three.js code, read and follow every relevant skill before acting:
+
+- `threejs-core` — renderer, scene, loop, resize
+- `threejs-camera` — cameras and controls
+- `threejs-geometry` — primitives and BufferGeometry
+- `threejs-materials` — PBR materials and maps
+- `threejs-lighting` — lights, shadows, HDR
+- `threejs-animation` — mixer, clips, morphs, bones
+- `threejs-loaders` — GLTF, textures, LoadingManager
+- `threejs-shaders` — ShaderMaterial and GLSL
+- `threejs-postprocessing` — EffectComposer and passes
+- `threejs-physics` — cannon-es, Rapier, Ammo
+- `threejs-react` — React Three Fiber, drei
+- `threejs-performance` — instancing, LOD, profiling
+- `threejs-xr` — WebXR VR/AR
+- `threejs-audio` — spatial and positional audio
+
+Skill files live in `.cursor/skills/threejs-*/SKILL.md`. Load the matching `SKILL.md` (and its extra `.md` references) instead of improvising Three.js setup.
